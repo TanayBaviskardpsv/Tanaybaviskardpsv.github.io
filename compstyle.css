@@ -3,9 +3,18 @@
     src: url("Tomorrow-Regular.ttf");
 }
 
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
 .Header {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     padding: 20px;
     background-color: #000000;
@@ -18,10 +27,14 @@
 
 body {
     font-family: Tomorrow-Regular;
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     background-color: #000000;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .logolink {
@@ -156,7 +169,7 @@ body {
 }
 
 .robocontent{
-    font-size: 35px;
+    font-size: 2vw;
     margin-bottom: 80px;
     text-align: center;
 }
@@ -189,7 +202,7 @@ footer {
 /* For tablets and smaller screens (max-width: 768px) */
 @media (max-width: 1025px) {
     .Header {
-        padding: 10px;
+        padding: 0;
     }
 
     #logo {
@@ -237,13 +250,16 @@ footer {
         height: auto;
     }
 
+    .robocontent{
+        font-size: 4vw;
+    }
+
     .roborushcontent {
         width: 90%;
-        font-size: 2vw;
         text-align: center; /* Center the text in smaller screens */
     }
 
     footer {
-        margin: 2%;
+        margin-top: 10%;
     }
 }
