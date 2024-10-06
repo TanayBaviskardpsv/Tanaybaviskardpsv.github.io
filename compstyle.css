@@ -121,18 +121,19 @@ body {
 }
 
 .robotitle {
-    transform: rotateZ(270deg);
-    margin-top: 175%;
-    margin-left: 20%;
+    transform: rotateZ(-90deg);
+    /* margin-top: auto;
+    margin-left: auto; */
     
 }
 
 .sidebar {
-    font-size: 35px;
+    font-size: 2vw;
     width: 12%;
     background-color: rgb(34, 33, 33);
-    text-align: center;
-    padding-top:130px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ROBORUSH {
@@ -206,7 +207,7 @@ footer {
     }
 
     .robotitle {
-        margin-top: 25vw;
+        margin-top: 10vw;
         margin-left: 2%;
         font-size: 6vw;
     }
@@ -214,6 +215,7 @@ footer {
     .sidebar {
         font-size: 28px;
         width: 10%;
+        height: auto;
     }
 
     .ROBORUSH {
@@ -232,15 +234,16 @@ footer {
     .ROBOtop {
         width: 100%;
         justify-content: center;
+        height: auto;
     }
 
     .roborushcontent {
         width: 90%;
+        font-size: 2vw;
         text-align: center; /* Center the text in smaller screens */
     }
 
     footer {
-        flex-direction: column;
         margin: 2%;
     }
 }
