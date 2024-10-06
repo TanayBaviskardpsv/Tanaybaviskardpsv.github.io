@@ -202,7 +202,7 @@ footer {
     }
 
     .competitionstitle {
-        font-size: 40px;
+        font-size: 6vw;
     }
 
     .robotitle {
@@ -222,11 +222,10 @@ footer {
         align-items: center; /* Centers both horizontally and vertically */
         height: auto;
         width: 100%;
-        margin: 0 auto;
     }
 
     .roborushimg {
-        width: 90vw; /* Adjust image width for smaller screens */
+        width: 90%; /* Adjust image width for smaller screens */
         height: auto;
     }
 
@@ -236,67 +235,7 @@ footer {
     }
 
     .roborushcontent {
-        width: 100%;
-        text-align: center; /* Center the text in smaller screens */
-    }
-
-    footer {
-        flex-direction: column;
-        margin: 2%;
-    }
-}
-
-@media (max-width: 500px) {
-    .Header {
-        padding: 10px;
-    }
-
-    #logo {
-        width: 90px;
-        height: 40px;
-    }
-
-    .hamburger {
-        width: 25px;
-        margin-right: 20px;
-    }
-
-    .competitionstitle {
-        font-size: 40px;
-    }
-
-    .robotitle {
-        margin-top: 25vw;
-        margin-left: 2%;
-        font-size: 6vw;
-    }
-
-    .sidebar {
-        font-size: 28px;
-        width: 10%;
-    }
-
-    .ROBORUSH {
-        flex-direction: column; /* Stack items vertically */
-        justify-content: center;
-        align-items: center; /* Centers both horizontally and vertically */
-        height: auto;
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .roborushimg {
-        width: 90vw; /* Adjust image width for smaller screens */
-        height: auto;
-    }
-
-    .ROBOtop {
-        width: 100%;
-        justify-content: center;
-    }
-
-    .roborushcontent {
-        width: 100%;
+        width: 90%;
         text-align: center; /* Center the text in smaller screens */
     }
 
