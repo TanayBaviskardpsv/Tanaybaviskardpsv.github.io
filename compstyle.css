@@ -258,6 +258,9 @@ footer {
         width: 90%;
         text-align: center; /* Center the text in smaller screens */
     }
+    .register{
+        font-size: 5vw;
+    }
 
     footer {
         margin-top: 10%;
